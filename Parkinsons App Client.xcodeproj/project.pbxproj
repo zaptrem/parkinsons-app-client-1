@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6963F3151C78292E00BAE0CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963F3141C78292E00BAE0CE /* AppDelegate.swift */; };
+		6963F3171C78292E00BAE0CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963F3161C78292E00BAE0CE /* ViewController.swift */; };
+		6963F31A1C78292E00BAE0CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6963F3181C78292E00BAE0CE /* Main.storyboard */; };
+		6963F31C1C78292E00BAE0CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6963F31B1C78292E00BAE0CE /* Images.xcassets */; };
+		6963F31F1C78292E00BAE0CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6963F31D1C78292E00BAE0CE /* LaunchScreen.xib */; };
+		6963F32B1C78292E00BAE0CE /* Parkinsons_App_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6963F32A1C78292E00BAE0CE /* Parkinsons_App_ClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6963F3251C78292E00BAE0CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6963F3071C78292E00BAE0CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6963F30E1C78292E00BAE0CE;
+			remoteInfo = "Parkinsons App Client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6963F30F1C78292E00BAE0CE /* Parkinsons App Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parkinsons App Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6963F3131C78292E00BAE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6963F3141C78292E00BAE0CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6963F3161C78292E00BAE0CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6963F3191C78292E00BAE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6963F31B1C78292E00BAE0CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6963F31E1C78292E00BAE0CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6963F3241C78292E00BAE0CE /* Parkinsons App ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parkinsons App ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6963F3291C78292E00BAE0CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6963F32A1C78292E00BAE0CE /* Parkinsons_App_ClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parkinsons_App_ClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6963F30C1C78292E00BAE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6963F3211C78292E00BAE0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6963F3061C78292E00BAE0CE = {
+			isa = PBXGroup;
+			children = (
+				6963F3111C78292E00BAE0CE /* Parkinsons App Client */,
+				6963F3271C78292E00BAE0CE /* Parkinsons App ClientTests */,
+				6963F3101C78292E00BAE0CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6963F3101C78292E00BAE0CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6963F30F1C78292E00BAE0CE /* Parkinsons App Client.app */,
+				6963F3241C78292E00BAE0CE /* Parkinsons App ClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6963F3111C78292E00BAE0CE /* Parkinsons App Client */ = {
+			isa = PBXGroup;
+			children = (
+				6963F3141C78292E00BAE0CE /* AppDelegate.swift */,
+				6963F3161C78292E00BAE0CE /* ViewController.swift */,
+				6963F3181C78292E00BAE0CE /* Main.storyboard */,
+				6963F31B1C78292E00BAE0CE /* Images.xcassets */,
+				6963F31D1C78292E00BAE0CE /* LaunchScreen.xib */,
+				6963F3121C78292E00BAE0CE /* Supporting Files */,
+			);
+			path = "Parkinsons App Client";
+			sourceTree = "<group>";
+		};
+		6963F3121C78292E00BAE0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6963F3131C78292E00BAE0CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6963F3271C78292E00BAE0CE /* Parkinsons App ClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6963F32A1C78292E00BAE0CE /* Parkinsons_App_ClientTests.swift */,
+				6963F3281C78292E00BAE0CE /* Supporting Files */,
+			);
+			path = "Parkinsons App ClientTests";
+			sourceTree = "<group>";
+		};
+		6963F3281C78292E00BAE0CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6963F3291C78292E00BAE0CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6963F30E1C78292E00BAE0CE /* Parkinsons App Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6963F32E1C78292E00BAE0CE /* Build configuration list for PBXNativeTarget "Parkinsons App Client" */;
+			buildPhases = (
+				6963F30B1C78292E00BAE0CE /* Sources */,
+				6963F30C1C78292E00BAE0CE /* Frameworks */,
+				6963F30D1C78292E00BAE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parkinsons App Client";
+			productName = "Parkinsons App Client";
+			productReference = 6963F30F1C78292E00BAE0CE /* Parkinsons App Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6963F3231C78292E00BAE0CE /* Parkinsons App ClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6963F3311C78292E00BAE0CE /* Build configuration list for PBXNativeTarget "Parkinsons App ClientTests" */;
+			buildPhases = (
+				6963F3201C78292E00BAE0CE /* Sources */,
+				6963F3211C78292E00BAE0CE /* Frameworks */,
+				6963F3221C78292E00BAE0CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6963F3261C78292E00BAE0CE /* PBXTargetDependency */,
+			);
+			name = "Parkinsons App ClientTests";
+			productName = "Parkinsons App ClientTests";
+			productReference = 6963F3241C78292E00BAE0CE /* Parkinsons App ClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6963F3071C78292E00BAE0CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "FP Computer Club";
+				TargetAttributes = {
+					6963F30E1C78292E00BAE0CE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6963F3231C78292E00BAE0CE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6963F30E1C78292E00BAE0CE;
+					};
+				};
+			};
+			buildConfigurationList = 6963F30A1C78292E00BAE0CE /* Build configuration list for PBXProject "Parkinsons App Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6963F3061C78292E00BAE0CE;
+			productRefGroup = 6963F3101C78292E00BAE0CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6963F30E1C78292E00BAE0CE /* Parkinsons App Client */,
+				6963F3231C78292E00BAE0CE /* Parkinsons App ClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6963F30D1C78292E00BAE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6963F31A1C78292E00BAE0CE /* Main.storyboard in Resources */,
+				6963F31F1C78292E00BAE0CE /* LaunchScreen.xib in Resources */,
+				6963F31C1C78292E00BAE0CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6963F3221C78292E00BAE0CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6963F30B1C78292E00BAE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6963F3171C78292E00BAE0CE /* ViewController.swift in Sources */,
+				6963F3151C78292E00BAE0CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6963F3201C78292E00BAE0CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6963F32B1C78292E00BAE0CE /* Parkinsons_App_ClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6963F3261C78292E00BAE0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6963F30E1C78292E00BAE0CE /* Parkinsons App Client */;
+			targetProxy = 6963F3251C78292E00BAE0CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6963F3181C78292E00BAE0CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6963F3191C78292E00BAE0CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6963F31D1C78292E00BAE0CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6963F31E1C78292E00BAE0CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6963F32C1C78292E00BAE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6963F32D1C78292E00BAE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6963F32F1C78292E00BAE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Parkinsons App Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6963F3301C78292E00BAE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Parkinsons App Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6963F3321C78292E00BAE0CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Parkinsons App ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkinsons App Client.app/Parkinsons App Client";
+			};
+			name = Debug;
+		};
+		6963F3331C78292E00BAE0CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Parkinsons App ClientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parkinsons App Client.app/Parkinsons App Client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6963F30A1C78292E00BAE0CE /* Build configuration list for PBXProject "Parkinsons App Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6963F32C1C78292E00BAE0CE /* Debug */,
+				6963F32D1C78292E00BAE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6963F32E1C78292E00BAE0CE /* Build configuration list for PBXNativeTarget "Parkinsons App Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6963F32F1C78292E00BAE0CE /* Debug */,
+				6963F3301C78292E00BAE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6963F3311C78292E00BAE0CE /* Build configuration list for PBXNativeTarget "Parkinsons App ClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6963F3321C78292E00BAE0CE /* Debug */,
+				6963F3331C78292E00BAE0CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6963F3071C78292E00BAE0CE /* Project object */;
+}
